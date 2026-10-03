@@ -5,5 +5,5 @@ services:
     plan: starter
     healthCheckPath: /health
     envVars:
-      - key: ADMIN_TOKEN
-        generateValue: true
+      - key: KICK_URL
+        sync: false
