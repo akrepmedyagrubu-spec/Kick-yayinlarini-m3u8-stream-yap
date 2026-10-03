@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: kick-hls-relay
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: ADMIN_TOKEN
+        generateValue: true
