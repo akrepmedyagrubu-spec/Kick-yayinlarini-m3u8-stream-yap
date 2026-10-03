@@ -11,8 +11,8 @@ https://SERVISIN.onrender.com/live/index.m3u8
 ## Kurulum
 
 1. Bu klasörü GitHub'da bir repository'ye yükleyin.
-2. Render'da **New → Blueprint** ile bu repository'yi bağlayın.
-3. Blueprint `KICK_URL` istediğinde `https://kick.com/kanal-adin` biçiminde kanal adresini gir. İsterseniz servis oluşturulduktan sonra **Environment → KICK_URL** alanına da ekleyebilirsiniz.
+2. Render'da **New → Web Service** ile bu repoyu bağlayın.
+3. Environment kısmına girip KICK_URL diye bir bölüm açın ve oraya kick linkini koyun.
 4. Deploy tamamlanınca `https://SERVISIN.onrender.com` sayfası durum ve sabit m3u8 adresini gösterir.
 
 Yayın canlı değilse uygulama 20 saniyede bir tekrar dener. Kick kanalını değiştirmek için Render'da `KICK_URL` değerini güncelle; değişiklik servisi yeniden dağıtır ve yeni yayın otomatik başlar.
